@@ -1,0 +1,194 @@
+section{
+position: relative;
+z-index: 1;
+padding-bottom: 100px;
+}
+.container-fluid{
+width: 100%;
+padding: 0 30px;
+margin:0 auto;
+}
+ .container-fluid .appontment-innner{
+background: url(../assets/line-bg.png);
+background-repeat: no-repeat;
+background-position: 20px 140px;
+background-color: #f5f5fc !important;
+    border-radius: 40px;
+    position: relative;
+    z-index: 1;
+    padding: 100px 0;
+}
+.row{
+align-items: center !important;
+display: flex;
+flex-wrap: wrap;
+}
+.appointment-form {
+    background-color: #fff;
+    box-shadow: 0px 10px 60px 0px rgba(31, 34, 120, 0.1) !important;
+    border-radius: 40px;
+    padding: 40px 35px;
+    text-align: center;
+    position: relative;
+}
+.appointment-form .title{
+margin-bottom: 30px;
+color: #1f2278;
+line-height: 1.3;
+font-size: 28px;
+    font-weight: 700;
+}
+form{
+display: block;
+}
+.form-group{
+position: relative;
+margin-bottom: 20px;
+}
+.drop-down select{
+    padding: 15px 25px;
+    cursor: pointer;
+}
+.form-control{
+    border: 1px solid;
+    border-color: rgba(86, 90, 207, 0.3) !important;
+    border-radius: 8px !important;
+    height: 60px;
+    padding: 15px 25px;
+    color: #000;
+    background: #ffffff;
+    display: block;
+    width: 100%;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    -ms-border-radius: 8px !important;
+    -o-border-radius: 8px !important;
+}
+.btn-submit{
+    margin-top: 15px;
+    background-color: #f17732 !important;
+    color: #fff;
+    font-size: 16px;
+    padding: 30px 35px;
+    line-height: 0.2;
+    border-width: 2px;
+    font-weight: 500;
+    outline: none !important;
+    border: 0 !important;
+    display: inline-block;
+    user-select: none;
+    text-align: center;
+    border-radius: 8px !important;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    -ms-border-radius: 8px !important;
+    -o-border-radius: 8px !important;
+}
+.appointment-form:after {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #565acf;
+    z-index: -1;
+}
+.appointment-thumb {
+    position: relative;
+    width: 730px;
+    margin-left: 70px;
+}
+img {
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.appointment-thumb .img1{
+    right: 16px;
+    bottom: 16px;
+    height: 530px;
+    -webkit-animation: left-right 2s infinite alternate;
+    animation: left-right 2s infinite alternate;
+    position: absolute;
+}
+.appointment-thumb .img2{
+position: absolute;
+left: 80px;
+    bottom: 255px;
+    width: 130px;
+    -webkit-animation: up-down 2s infinite alternate;
+    animation: up-down 2.3s infinite alternate;
+}
+.appointment-thumb .img3{
+    position: absolute;
+    right: 260px;
+    bottom: 120px;
+    width: 94px;
+    -webkit-animation: up-down 2.5s infinite alternate;
+    animation: up-down 2.5s infinite alternate;
+    }
+    .appointment-thumb .img4{
+        position: absolute;
+        left: 20px;
+    top: 150px;
+    -webkit-animation: up-down 1.5s infinite alternate;
+    animation: up-down 1.5s infinite alternate;
+        }
+        .appointment-thumb .img5{
+        position: absolute;
+        right: 70px;
+        top: 30px;
+        -webkit-animation: up-down 2s infinite alternate;
+        animation: up-down 2s infinite alternate;
+            }
+    .traingle{
+        top: 100px;
+        left: 70px;
+    animation: up-down 1.5s infinite alternate;
+    --webkit-animation: up-down 1.5s infinite alternate;
+    position: absolute;
+    z-index: -1;
+    }
+    .waveorange{
+        position: absolute;
+        z-index: -1;
+        left: -90px;
+    bottom: 150px;
+    --webkit-animation: left-right 1.5s infinite alternate;
+    animation: left-right 1.5s infinite alternate;
+    }
+    .waveblue{
+        position: absolute;
+        z-index: -1;
+        --webkit-animation: left-right 1.5s infinite alternate;
+        animation: left-right 1.5s infinite alternate;
+        right: 20px;
+        top: -30px;
+    }
+    .circledot{
+        position: absolute;
+        z-index: -1;
+        right: 30px;
+        bottom: -30px;
+        animation: up-down 1.5s infinite alternate;
+        --webkit-animation: up-down 1.5s infinite alternate;
+    }
+    @keyframes up-down{
+    0%{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+    100%{
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+}
+    }

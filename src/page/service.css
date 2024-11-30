@@ -1,0 +1,146 @@
+.service-wraper{
+position: relative;
+z-index: -1;
+overflow: hidden;
+}
+.row{
+align-items: center !important;
+}
+ .service-wraper .heading-box p{
+    margin-bottom: 3rem ; 
+    margin-top: 0 !important;
+}
+.service-wraper .heading-box h2{
+font-size: 38px;
+font-weight: 700;
+width: 80%;
+margin-bottom: 1rem;
+}
+ .service-wraper .btn-ser{ color: #fff !important; background-color: var(--orange-color) !important; box-shadow: 0px 5px 20px 0px rgba(241, 119, 50, 0.3) !important; padding: 20px 35px; font-size: 16px; line-height: 1; border-radius:8px !important ; -webkit-border-radius:8px !important ; -moz-border-radius:8px !important ; -ms-border-radius:8px !important ; -o-border-radius:8px !important ;
+cursor: pointer !important;
+}
+ .service-wraper .feature-bx2{
+    border-radius: 20px;
+    background-color: #fff !important;
+    z-index: 1;
+    overflow: hidden;
+    padding: 40px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.08);
+    background: url(../assets/line-bg3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.service-wraper .feature-container{
+margin: 15px;
+position: relative;
+
+}
+.swiper-slide .feature-1 .icon-cell span svg{
+width: 40px;
+vertical-align: middle;
+}
+ .service-wraper .swiper-slide{
+width: 377px;
+}
+ .service-wraper .swiper-container{
+position: relative;
+overflow: hidden;
+z-index: 1;
+background-color: #fff !important;
+}
+ .service-wraper .feature-box-xl{
+    background: #fff !important;
+    border: 2px solid rgba(86, 90, 207, 0.1) !important;
+    border-radius: 13px;
+    width: 170px;
+    height: 170px;
+    line-height: 170px;
+    display: inline-block;
+    text-align: center;
+}
+ .service-wraper .icon-content{
+overflow: hidden;
+}
+ .service-wraper .icon-content h3{
+    font-size: 29px;
+    font-weight: 700;
+    color: #1f2278;
+    line-height: 1.3;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem !important;
+}
+ .service-wraper .feature-container .icon-content p{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+ .service-wraper .feature-container .icon-content a{
+    background-color: #e1e2f6 !important;
+    color: #565acf !important;
+    border: 2px solid #e1e2f6 !important;
+    padding: 15px 30px;
+    border-radius: 8px !important;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    -ms-border-radius: 8px !important;
+    -o-border-radius: 8px !important;
+}
+.swiper-wraper{
+position: relative;
+width: 100%;
+height: 100%;
+z-index: 1;
+display: flex;
+}
+.service-wraper .img1{
+position: absolute;
+z-index: -1;
+-webkit-animation: rotation 20s infinite linear;
+    animation: rotation 20s infinite linear;
+    top: 60px;
+    left: 80px;
+}
+ .service-wraper .img2{
+    position: absolute;
+    z-index: -1;
+    --webkit-animation: up-down 2s infinite alternate;
+    animation: up-down 2s infinite alternate;
+        bottom: 150px;
+    left: 140px;
+    }
+     .service-wraper .img3{
+        position: absolute;
+        z-index: -1;
+        --webkit-animation: left-right 1.5s infinite alternate;
+        animation: left-right 1.5s infinite alternate;
+        bottom: 60px;
+        left: 50%;
+    }
+     .service-wraper .img4{
+        position: absolute;
+        z-index: -1;
+        --webkit-animation: up-down 1.5s infinite alternate;
+        animation: up-down 1.5s infinite alternate;
+        top: 10px;
+    left: 40%;
+    }
+    .service-wraper::after{
+        content: "";
+    background-color: #565acf !important;
+    height: 100%;
+    width: 45%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 40px 0 0 40px;
+    }
+@keyframes rotation{
+0%{ transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg);
+}
+100%{ transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg);
+}
+}

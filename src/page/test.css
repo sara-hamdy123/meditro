@@ -1,0 +1,192 @@
+.test-wrapper{
+position: relative;
+z-index: -1;
+padding-top: 70px;
+padding-bottom: 0;
+}
+.test-wrapper .heading-box{
+text-align: center !important;
+margin-bottom: 45px;
+}
+.test-wrapper .heading-box h6{
+font-weight: 700;
+display: inline-block;
+padding: 3px 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.test-wrapper .heading-box h2{
+font-size: 45px;
+font-weight: 700;
+margin-top: 0;
+margin-bottom: 0.5rem;
+}
+.test-wrapper .thumb-warper{
+display: inline-block;
+position: relative;
+}
+.test-wrapper .thumb-warper .shape{
+position: relative;
+z-index: -2;
+}
+.test-wrapper .thumb-warper ul{
+margin-bottom: 24px;
+}
+.test-wrapper .thumb-warper ul li{
+position: absolute;
+}
+ .test-wrapper .thumb-warper ul li:nth-child(1) {
+    top: 100px;
+    left: 20px;
+}
+.test-wrapper .thumb-warper ul li a {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    box-shadow: 0px 10px 60px 0px rgba(31, 34, 120, 0.1);
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+    position: relative;
+}
+ .test-wrapper .thumb-warper ul li a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.test-wrapper .thumb-warper ul li:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: #565acf;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: -1;
+    transform: scale(0);
+    border-radius: 50%;
+}
+.thumb-warper ul li:nth-child(2) {
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.thumb-warper ul li:nth-child(3) {
+    top: 100px;
+    right: 20px;
+}
+.thumb-warper ul li:nth-child(4) {
+    right: 30px;
+    bottom: 110px;
+}
+.thumb-warper ul li:nth-child(5) {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.thumb-warper ul li:nth-child(6) {
+    left: 30px;
+    bottom: 110px;
+}
+.test-wrapper .plusorange{
+position: absolute;
+    top: 165px;
+    left: 180px;
+    z-index: -1;
+    -webkit-animation: up-down 1.5s infinite alternate;
+    animation: up-down 1.5s infinite alternate;
+}
+.test-wrapper .squareblue{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+        z-index: -1;
+        -webkit-animation: up-down 2s infinite alternate;
+        animation: up-down 1.5s infinite alternate;
+    }
+    .test-wrapper .circledot{
+            position: absolute;
+            top: 140px;
+            right: 90px;
+            z-index: -1;
+            animation: none;
+            -webkit-animation: none;
+}
+.test-wrapper .circleorang{
+    position: absolute;
+    bottom: -5px ;
+    right: 40px ;
+    z-index: -1;
+    
+}
+.test-wrapper .swiper-box{ background-color: var(--orange-color); color: #fff; padding: 50px ; text-align: left; border-radius:  50px 0 50px 50px; -webkit-border-radius:  50px 0 50px 50px; -moz-border-radius:  50px 0 50px 50px; -ms-border-radius:  50px 0 50px 50px; -o-border-radius:  50px 0 50px 50px;
+position: relative;
+z-index: 1;
+}
+.test-wrapper .swiper-box p{
+font-size: 24px;
+padding-bottom: 1.3rem;
+line-height: 1.2;
+}
+.test-wrapper .swiper-box h4{
+padding-bottom: 0.5rem;
+}
+.test-wrapper .swiper-box .quoteright{
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 92px;
+    color: #fff;
+    opacity: 0.3;
+    line-height: 92px;
+}
+.test-wrapper .swiper-box .quote-icon{ position: absolute; top: -50px;  z-index: -1; background-color: #fff; padding: 12px; border-radius:20px ; -webkit-border-radius:20px ; -moz-border-radius:20px ; -ms-border-radius:20px ; -o-border-radius:20px ;
+}
+.test-wrapper .swiper-box .quote-icon svg{
+width: 50px;
+height: 50px;
+color: #f17732;
+text-align: center;
+line-height: 50px;
+box-shadow: 0px 10px 60px 0px rgba(31, 34, 120, 0.1);
+}
+.test-wrapper .vertical{
+display: flex;
+}
+.test-wrapper .vertical .stron{
+margin-left: auto;
+font-size: 35px;
+display: flex;
+color: #f17732;
+font-weight: bolder;
+margin-top: 3rem;
+}
+.test-wrapper .vertical .stron .smll{
+    font-weight:600;
+    font-size: 30px;
+    margin-top: 1rem;
+    opacity: 0.5;
+}
+.test-wrapper .vertical .arrownext,
+.test-wrapper .vertical .arrowprev{
+color: #f17732;
+line-height: 1;
+padding: 1.2rem 1.2rem;
+cursor: pointer !important;
+}
+.test-wrapper .vertical button{
+    background-color: #e4c5b5;
+    border: none !important;
+    margin: 1rem;
+    border-radius: 15%;
+    margin-top: 4rem;
+}
+
+

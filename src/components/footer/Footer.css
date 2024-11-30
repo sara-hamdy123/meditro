@@ -1,0 +1,147 @@
+footer{
+background: url(../../assets/footer.jpg);
+position: relative;
+z-index: -1;
+}
+footer .container{
+position: relative;
+}
+footer img.footerlogo{
+width: auto;
+height: 50px;
+margin: 15px 0 ;
+}
+footer p{
+font-size: 21px;
+color: #444;
+}
+footer .footer-contact{
+display: flex;
+}
+footer .footer-icon svg{
+    font-size: 20px;
+    color: #fff;
+    margin-right: 15px;
+    background-color: #f17732;
+    border-radius: 50px 50px 0px 50px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 17px;
+    align-items: center;
+    -webkit-border-radius: 50px 50px 0px 50px;
+    -moz-border-radius: 50px 50px 0px 50px;
+    -ms-border-radius: 50px 50px 0px 50px;
+    -o-border-radius: 50px 50px 0px 50px;
+}
+footer .footer-text h6{
+color:#f17732;
+font-size: 18px;
+}
+footer .footer-text h4{
+color: var(--main-color);
+font-size: 24px;
+font-weight: 700;
+}
+footer h2{
+color: var(--main-color);
+}
+footer ul{
+padding: 25px 0 ;
+}
+footer ul li{
+padding: 4px 0 ;
+}
+footer ul li a{
+font-size: 19px;
+color: #444;
+font-weight: 500;
+}
+footer ul li a:hover{
+color:var(--main-color)
+}
+footer .email-address{ display: block; background-color: #fff !important; border: none !important; text-indent: 20; outline: none; width: 100%; height: 55px; margin: 1.5rem 0; border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px;
+}
+ footer .sub{ font-size: 19px; background-color: #f17732 !important; height: 55px; color: white; width: 100%; outline: none; border: none !important; border-radius:5px !important ; -webkit-border-radius:8px !important ; -moz-border-radius:5px !important ; -ms-border-radius:5px !important ; -o-border-radius:5px !important ;
+}
+footer .email-address:hover{
+outline: var(--main-color) !important;
+border: 1px solid var(--main-color) !important;
+}
+footer .social-links{
+margin: 1.9rem 0 ;
+}
+footer .social-links img{
+padding: 0 0.7rem ;
+cursor: pointer;
+}
+footer .waveone{ margin-bottom: 2rem; animation:mover 2s infinite  alternate; -webkit-animation:mover 2s infinite  alternate;
+}
+footer .waveblue{
+position: absolute;
+animation:mover 3s infinite  alternate; 
+left: 5%;
+top: 5%;
+}
+footer .plusblue{
+    position: relative;
+    top:-77%;
+    left:80%;
+    animation:rotate 18s infinite  alternate;
+    -webkit-animation:rotate 18s infinite  alternate;
+}
+    footer .sircledot{
+        position: absolute;
+        left:-6.7%;
+        margin-top: -10rem;
+        animation:mover 3s infinite  alternate; 
+        z-index: 1;
+        }
+        .sara{
+        color: #f17732;
+        }
+        .footer-bottom .container{
+        border-top: 1px solid #d8ccccfa;
+        }
+        .footer-bottom .container span{
+        text-align: center;
+        padding: 2rem 0 0 ;
+        font-size: 19px;
+        }
+        @keyframes mover{
+            0%{ transform: translateX(0px); -webkit-transform: translateX(0px); -moz-transform: translateX(0px); -ms-transform: translateX(0px); -o-transform: translateX(0px);
+}
+            100%{ transform: translateX(-10px); -webkit-transform: translateX(-10px); -moz-transform: translateX(-10px); -ms-transform: translateX(-10px); -o-transform: translateX(-10px);
+}
+            }
+            @keyframes rotate{
+            0%{
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+}
+            50%{
+                transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -moz-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+}
+            75%{
+                transform: rotate(180deg);
+                -webkit-transform: rotate(180deg);
+                -moz-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+}
+            100%{
+                transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+}
+            }
